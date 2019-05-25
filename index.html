@@ -2,32 +2,39 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Ionic App</title>
+    <meta charset="utf-8"/>
+    <title>Ionic App</title>
 
-  <base href="/" />
+    <base href="/"/>
 
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport"
+          content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
 
-  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+    <link rel="icon" type="image/png" href="assets/icon/favicon.png"/>
 
-  <!-- add to homescreen for ios -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- add to homescreen for ios -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-              .then(() => console.log('service worker installed'))
-              .catch(err => console.log('Error', err));
-    }
-  </script>
-<link rel="stylesheet" href="styles.89760ac21915f99927cd.css"></head>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(() => console.log('service worker installed'))
+                .catch(err => console.log('Error', err));
+        }
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.89760ac21915f99927cd.css">
+</head>
 
 <body>
-  <app-root></app-root>
-<script type="text/javascript" src="runtime.0256b3f11647c6c79c89.js"></script><script type="text/javascript" src="es2015-polyfills.82f046f3a235647a2a56.js" nomodule></script><script type="text/javascript" src="polyfills.9ccc9e25ed7d36fbe127.js"></script><script type="text/javascript" src="main.47e3105109c0afb9cf13.js"></script></body>
+<app-root></app-root>
+<script type="text/javascript" src="runtime.0256b3f11647c6c79c89.js"></script>
+<script type="text/javascript" src="es2015-polyfills.82f046f3a235647a2a56.js" nomodule></script>
+<script type="text/javascript" src="polyfills.9ccc9e25ed7d36fbe127.js"></script>
+<script type="text/javascript" src="main.47e3105109c0afb9cf13.js"></script>
+</body>
 
 </html>
