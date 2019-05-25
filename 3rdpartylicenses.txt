@@ -395,13 +395,13 @@ MIT
 @ionic-native/status-bar
 MIT
 
-@angular/service-worker
-MIT
-
 @angular/fire
 MIT
 
 @angular/fire/messaging
+MIT
+
+@angular/service-worker
 MIT
 
 loader
